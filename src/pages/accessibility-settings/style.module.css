@@ -1,0 +1,112 @@
+.container {
+  width: 400px;
+  height: 672px;
+  margin: auto;
+  padding: 13px;
+  position: relative;
+}
+
+.pageHeader {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: black;
+  margin-bottom: 13px;
+}
+
+.settingList {
+  width: 100%;
+  height: auto;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.settingList .wrapper {
+  border-bottom: 0.83px solid rgba(0, 0, 0, 0.05);
+  margin-bottom: 13px;
+}
+
+.textSizeSelection {
+  margin: 0 13px;
+  padding: 12px;
+  border: 0.83px solid rgba(0, 0, 0, 0.05);
+}
+
+.selectionHeader {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 325;
+  font-size: 11px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2b2929;
+}
+
+.optionWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 13px;
+}
+
+.optionWrapper div {
+  width: 32%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.83px solid rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 325;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.optionWrapper .small {
+  color: #2b2929;
+  font-size: 11px;
+  line-height: 14px;
+}
+
+.optionWrapper .medium {
+  font-size: 18px;
+  line-height: 22px;
+  color: #040b2a;
+  background: #eef5ff;
+}
+
+.optionWrapper .large {
+  font-size: 24px;
+  line-height: 30px;
+  color: #2b2929;
+}
+
+.footer {
+  width: 100%;
+  padding: 0 13px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 13px;
+  left: 0;
+}
+
+@media only screen and (width <= 400px) {
+  .container {
+    width: 100%;
+    height: 100vh;
+    padding: 13px;
+    position: relative;
+  }
+}

@@ -1,0 +1,56 @@
+.manualFilterSkinTonePage {
+  width: 400px;
+  height: 672px;
+  margin: auto;
+  padding: 13px;
+  position: relative;
+}
+
+.pageHeader {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  color: black;
+  margin-bottom: 13px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.skinToneList {
+  width: 100%;
+  height: auto;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.skinToneList .wrapper {
+  border-bottom: 0.83px solid rgba(0, 0, 0, 0.05);
+  margin-bottom: 13px;
+  padding: 7px 0;
+}
+
+.footer {
+  width: 100%;
+  padding: 0 13px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 13px;
+  left: 0;
+}
+
+@media only screen and (width <= 400px) {
+  .manualFilterSkinTonePage {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    padding: 13px;
+    position: relative;
+  }
+}

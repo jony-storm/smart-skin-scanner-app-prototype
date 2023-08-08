@@ -1,0 +1,35 @@
+a {
+  text-decoration: none;
+}
+
+.btn {
+  width: 48%;
+  padding: 11px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  border-radius: 4px;
+  transition: 0.2s all;
+  outline: none;
+}
+
+.skipBtn {
+  background-color: white;
+  color: #454343;
+  border: 0.828708px solid rgba(77, 76, 78, 0.2);
+}
+
+.applyBtn {
+  background: #040b2a;
+  color: white;
+}
+
+.btn:active {
+  transform: scale(0.99);
+  transform: translateY(2px);
+}

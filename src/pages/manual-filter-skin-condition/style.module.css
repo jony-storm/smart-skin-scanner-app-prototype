@@ -1,0 +1,67 @@
+.container {
+  width: 400px;
+  height: 672px;
+  margin: auto;
+  padding: 13px;
+  position: relative;
+}
+
+.pageHeader {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  color: black;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 26px;
+}
+
+.pageSubHeader {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px !important;
+  line-height: 14px;
+  color: #2b2929;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  padding-left: 13px;
+  margin-bottom: 26px;
+}
+
+.diseaseList {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0 13px;
+}
+
+.diseaseList .wrapper {
+  border-bottom: 0.83px solid rgba(0, 0, 0, 0.05);
+  margin-bottom: 13px;
+}
+
+.footer {
+  width: 100%;
+  padding: 0 13px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 13px;
+  left: 0;
+}
+
+@media only screen and (width <= 400px) {
+  .container {
+    width: 100%;
+    height: 100vh;
+    padding: 13px;
+    position: relative;
+  }
+}
